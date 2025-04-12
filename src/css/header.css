@@ -45,3 +45,32 @@
   background: #747bff;
 }
 */
+
+@media only screen and (max-width: 1200px) {
+  .kontakt-btn,
+  .header-list {
+    display: none;
+  }
+}
+
+/* -- mobile -- */
+.burget-btn {
+  background-color: transparent;
+  border: 0;
+  line-height: 0;
+}
+
+/* --- tablet --- */
+
+/* ---- desktop ---- */
+
+@media only screen and (min-width: 1200px) {
+  .burget-btn {
+    display: none;
+  }
+
+  .kontakt-btn,
+  .header-list {
+    display: block; /* або flex — залежно від твого дизайну */
+  }
+}
