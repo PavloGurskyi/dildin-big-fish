@@ -11,4 +11,11 @@
 
 /* Sections style */
 @import url('./header.css');
+@import url('./mobile-menu.css');
+@import url('./hero.css');
+@import url('./advantages.css');
+@import url('./cards.css');
+@import url('./services.css');
+@import url('./how-to.css');
+@import url('./reviews.css');
 @import url('./footer.css');
