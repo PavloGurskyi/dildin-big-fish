@@ -1,3 +1,18 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  background-color: #111;
+}
+
+main {
+  flex-grow: 1;
+}
+
 h1,
 h2,
 h3,
@@ -5,6 +20,7 @@ h4,
 h5,
 h6,
 p {
+  color: #fff;
   margin: 0;
 }
 
@@ -21,6 +37,7 @@ ul {
 a {
   color: currentColor;
   text-decoration: none;
+  text-decoration: none;
 }
 
 button {
@@ -31,4 +48,9 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.link {
+  text-decoration: none;
+  font-style: normal;
 }
