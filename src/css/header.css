@@ -73,4 +73,16 @@
   .header-list {
     display: block; /* або flex — залежно від твого дизайну */
   }
+
+  .header-nav {
+    display: flex; /* Увімкнути флекс-контейнер */
+    align-items: center; /* Вирівнювати по центру вертикально */
+    justify-content: space-between;
+  }
+
+  .header-list {
+    display: flex; /* В один рядок */
+    gap: 30px;
+    text-transform: uppercase; /* ВСІ ЛІТЕРИ ВЕЛИКІ */
+  }
 }
