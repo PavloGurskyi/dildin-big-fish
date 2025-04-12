@@ -135,4 +135,23 @@
   .header-container {
     margin: 25px auto;
   }
+
+  .header-list-item a.active {
+    color: #f4384f; /* Колір для активного посилання */
+  }
+
+  .header-list-item a:hover {
+    color: #f4384f; /* Колір при наведенні */
+  }
+
+  /* Зміна кольору активного елемента при ховері на інший */
+  .header-list-item a:hover.active {
+    color: #fff; /* Активний елемент стає білим при ховері на інший елемент */
+  }
+
+  .header-list-item a {
+    color: #fff;
+    text-decoration: none; /* Без підкреслення */
+    transition: color 0.3s ease; /* Плавний перехід для кольору */
+  }
 }
