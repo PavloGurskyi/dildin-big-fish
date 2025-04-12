@@ -85,4 +85,42 @@
     gap: 30px;
     text-transform: uppercase; /* ВСІ ЛІТЕРИ ВЕЛИКІ */
   }
+
+  .kontakt-btn {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column; /* Елементи один під одним */
+    justify-content: center;
+    background-color: #c00e19;
+    padding: 12px 20px 8px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    transition: background 0.3s ease, transform 0.3s ease;
+    gap: 5px;
+  }
+
+  .kontakt-btn-top {
+    display: flex;
+    align-items: center; /* Іконка і текст по центру вертикалі */
+    gap: 8px; /* Відстань між іконкою і текстом */
+  }
+
+  .kontakt-btn:hover .kontakt-btn-icon {
+    transform: translateY(-2px); /* Піднімаємо іконку трохи вгору */
+    transition: transform 0.3s ease; /* Плавність руху */
+  }
+
+  .kontakt-btn:hover .kontakt-btn-text {
+    color: #00aaff; /* Світло-блакитний або будь-який інший */
+    transition: color 0.3s ease; /* Плавність переходу кольору */
+  }
+
+  .kontakt-btn:hover {
+    background-color: #f0f8ff; /* Трошки світліший фон при наведенні */
+    border-radius: 8px; /* Скруглення, якщо хочеш */
+    transition: background-color 0.3s ease;
+  }
 }
