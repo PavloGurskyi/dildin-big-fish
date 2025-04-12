@@ -92,7 +92,7 @@
     flex-direction: column; /* Елементи один під одним */
     justify-content: center;
     background-color: #c00e19;
-    padding: 12px 20px 8px;
+    padding: 12px 25px 8px;
     border: none;
     border-radius: 8px;
     text-decoration: none;
@@ -109,18 +109,30 @@
   }
 
   .kontakt-btn:hover .kontakt-btn-icon {
-    transform: translateY(-2px); /* Піднімаємо іконку трохи вгору */
+    transform: translate(-6px, 9px) scale(1.5);
+    /* transform: scale(1.4); */
     transition: transform 0.3s ease; /* Плавність руху */
   }
 
+  .kontakt-btn .kontakt-btn-icon {
+    transition: transform 0.3s ease; /* Плавне зменшення */
+  }
+
   .kontakt-btn:hover .kontakt-btn-text {
-    color: #00aaff; /* Світло-блакитний або будь-який інший */
+    color: #fff;
     transition: color 0.3s ease; /* Плавність переходу кольору */
   }
 
   .kontakt-btn:hover {
-    background-color: #f0f8ff; /* Трошки світліший фон при наведенні */
-    border-radius: 8px; /* Скруглення, якщо хочеш */
+    background-color: #a40b14;
     transition: background-color 0.3s ease;
+  }
+
+  .kontakt-btn-text {
+    text-transform: uppercase;
+  }
+
+  .header-container {
+    margin: 25px auto;
   }
 }
