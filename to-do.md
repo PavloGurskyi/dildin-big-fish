@@ -17,3 +17,7 @@ find png at clFromHell
 styles
 
 <!-- //todo  == cards ==  -->
+
+<!-- //todo  == REVIEWS ==  -->
+
+h2 display: none або глянуть в hw-06 ??
