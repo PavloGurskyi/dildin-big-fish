@@ -2,7 +2,8 @@
 
 <!-- logo i burger => to row
 header.css => to order
-count header-list gap -->
+count header-list gap
+visually hidden: advs and revs -->
 
 приклєїть header
 
@@ -19,5 +20,3 @@ styles
 <!-- //todo  == cards ==  -->
 
 <!-- //todo  == REVIEWS ==  -->
-
-h2 display: none або глянуть в hw-06 ??
