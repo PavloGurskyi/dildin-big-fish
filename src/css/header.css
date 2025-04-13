@@ -1,3 +1,4 @@
+/* //! old */
 /*
 
 .header {
@@ -46,6 +47,16 @@
 }
 */
 
+/* //todo ==================== mobile ====================  */
+/* #region mobile */
+
+/* //? burger  */
+.burget-btn {
+  background-color: transparent;
+  border: 0;
+  line-height: 0;
+}
+/* //? main menu hidden  */
 @media only screen and (max-width: 1200px) {
   .kontakt-btn,
   .header-list {
@@ -53,39 +64,30 @@
   }
 }
 
-/* -- mobile -- */
-.burget-btn {
-  background-color: transparent;
-  border: 0;
-  line-height: 0;
-}
+/* #endregion mobile */
 
-/* --- tablet --- */
+/* //todo ==================== tablet ====================  */
+/* #region tablet */
+/* #endregion tablet */
 
-/* ---- desktop ---- */
+/* //todo ==================== desktop ====================  */
+/* #region desktop */
 
+/* //? burget-btn hidden  */
 @media only screen and (min-width: 1200px) {
   .burget-btn {
     display: none;
   }
+  /* //? kontakt-btn  */
+  /* #region kontakt-btn */
 
+  /* //? show it  */
   .kontakt-btn,
   .header-list {
     display: block; /* або flex — залежно від твого дизайну */
   }
 
-  .header-nav {
-    display: flex; /* Увімкнути флекс-контейнер */
-    align-items: center; /* Вирівнювати по центру вертикально */
-    justify-content: space-between;
-  }
-
-  .header-list {
-    display: flex; /* В один рядок */
-    gap: 30px;
-    text-transform: uppercase; /* ВСІ ЛІТЕРИ ВЕЛИКІ */
-  }
-
+  /* //? main  */
   .kontakt-btn {
     display: inline-flex;
     align-items: center;
@@ -102,38 +104,51 @@
     gap: 5px;
   }
 
+  /* //? text uppercase  */
+  .kontakt-btn-text {
+    text-transform: uppercase;
+  }
+
+  /* //? markup  */
   .kontakt-btn-top {
     display: flex;
     align-items: center; /* Іконка і текст по центру вертикалі */
     gap: 8px; /* Відстань між іконкою і текстом */
   }
 
+  /* //? hover color  */
+  .kontakt-btn:hover {
+    background-color: #a40b14;
+    transition: background-color 0.3s ease;
+  }
+  /* //? wapp icon grow  */
   .kontakt-btn:hover .kontakt-btn-icon {
     transform: translate(-6px, 9px) scale(1.5);
     /* transform: scale(1.4); */
-    transition: transform 0.3s ease; /* Плавність руху */
+    transition: transform 0.3s ease; /* Плавне збільшення */
   }
 
   .kontakt-btn .kontakt-btn-icon {
     transition: transform 0.3s ease; /* Плавне зменшення */
   }
 
-  .kontakt-btn:hover .kontakt-btn-text {
-    color: #fff;
-    transition: color 0.3s ease; /* Плавність переходу кольору */
+  /* #endregion kontakt-btn */
+  /* #endregion desktop */
+
+  .header-nav {
+    display: flex; /* Увімкнути флекс-контейнер */
+    align-items: center; /* Вирівнювати по центру вертикально */
+    justify-content: space-between;
   }
 
-  .kontakt-btn:hover {
-    background-color: #a40b14;
-    transition: background-color 0.3s ease;
-  }
-
-  .kontakt-btn-text {
-    text-transform: uppercase;
+  .header-list {
+    display: flex; /* В один рядок */
+    gap: 30px;
+    text-transform: uppercase; /* ВСІ ЛІТЕРИ ВЕЛИКІ */
   }
 
   .header-container {
-    margin: 25px auto;
+    margin: 30px auto;
   }
 
   .header-list-item a.active {
