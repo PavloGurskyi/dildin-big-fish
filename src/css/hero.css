@@ -71,4 +71,38 @@
 }
 
 .hero-title {
+  position: relative; /* обов'язково для ::after */
+  font-family: 'Gloria Hallelujah';
+  font-style: normal;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 21px;
+  margin-bottom: 15px;
+}
+
+.hero-title::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -7px; /* трошки нижче тексту */
+  transform: translateX(-50%); /* щоб лінія була по центру */
+  width: 97%; /* ширина підкреслення */
+  height: 2px; /* товщина лінії */
+  background-color: #fff; /* колір лінії */
+}
+
+@media (max-width: 768px) {
+  .hero-text {
+    display: block;
+  }
+  .hero-text::after {
+    content: '\A na razie! "';
+    white-space: pre;
+  }
+}
+
+.hero-text,
+.pomożemy-btn {
+  margin-bottom: 15px;
 }
