@@ -4,6 +4,8 @@
 header.css => to order
 count header-list gap -->
 
+приклєїть header
+
 <!-- //todo  == HERO ==  -->
 
 styles
