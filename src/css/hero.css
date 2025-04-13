@@ -63,8 +63,12 @@
   gap: 8px; /* Відстань між іконкою і текстом */
 }
 
-@media (min-width: 768px) {
+/* //? ховаю кнопку на десктопі */
+@media (min-width: 1280px) {
   .hero-btn {
     display: none;
   }
+}
+
+.hero-title {
 }
