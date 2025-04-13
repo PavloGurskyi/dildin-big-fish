@@ -37,7 +37,9 @@
   align-items: center;
   flex-direction: column; /* Елементи один під одним */
   justify-content: center;
-  margin: 0 auto 20px; /* вирівнює саму кнопку по центру */
+
+  margin: 10px auto 30px; /* вирівнює саму кнопку по центру */
+
   text-align: center; /* для вирівнювання тексту всередині */
   /* width: auto; */
   background-color: #c00e19;
@@ -104,5 +106,5 @@
 
 .hero-text,
 .pomożemy-btn {
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
