@@ -10,3 +10,18 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.adv-icon {
+  display: block;
+  margin: 30px auto;
+}
+
+.adv-list-item-title,
+.adv-list-item-text {
+  text-align: center;
+}
+
+.adv-list-item-title {
+  color: #e52629;
+  margin-bottom: 10px;
+}
