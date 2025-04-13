@@ -1,0 +1,70 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pomożemy-btn {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column; /* Елементи один під одним */
+  justify-content: center;
+  background-color: #c00e19;
+  padding: 12px 25px 8px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+  transition: background 0.3s ease, transform 0.3s ease;
+  gap: 5px;
+}
+
+.pomożemy-btn:hover {
+  background-color: #a40b14;
+  transition: background-color 0.3s ease;
+}
+
+.hero-btn {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column; /* Елементи один під одним */
+  justify-content: center;
+  margin: 0 auto 20px; /* вирівнює саму кнопку по центру */
+  text-align: center; /* для вирівнювання тексту всередині */
+  /* width: auto; */
+  background-color: #c00e19;
+  padding: 12px 25px 8px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+  transition: background 0.3s ease, transform 0.3s ease;
+  gap: 5px;
+}
+
+/* //? text uppercase  */
+.hero-btn-text {
+  text-transform: uppercase;
+}
+
+/* //? markup  */
+.hero-btn-top {
+  display: flex;
+  align-items: center; /* Іконка і текст по центру вертикалі */
+  gap: 8px; /* Відстань між іконкою і текстом */
+}
+
+@media (min-width: 768px) {
+  .hero-btn {
+    display: none;
+  }
+}
