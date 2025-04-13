@@ -64,6 +64,13 @@
   }
 }
 
+.header-container {
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* #endregion mobile */
 
 /* //todo ==================== tablet ====================  */
@@ -149,6 +156,9 @@
 
   .header-container {
     margin: 30px auto;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
   }
 
   .header-list-item a.active {
