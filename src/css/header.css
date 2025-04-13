@@ -142,8 +142,7 @@
   }
 
   /* #endregion kontakt-btn */
-  /* #endregion desktop */
-
+  /* #region header-list */
   .header-nav {
     display: flex; /* Увімкнути флекс-контейнер */
     align-items: center; /* Вирівнювати по центру вертикально */
@@ -154,9 +153,6 @@
   .header-list {
     display: flex; /* В один рядок */
     gap: 30px;
-    /* justify-content: space-between; */
-    /* max-width: 100%; */
-    /* margin: auto; */
     text-transform: uppercase; /* ВСІ ЛІТЕРИ ВЕЛИКІ */
   }
 
@@ -180,9 +176,13 @@
     color: #fff; /* Активний елемент стає білим при ховері на інший елемент */
   }
 
+  /* //? active page  */
   .header-list-item a {
     color: #fff;
     text-decoration: none; /* Без підкреслення */
     transition: color 0.3s ease; /* Плавний перехід для кольору */
   }
+  /* #endregion header-list */
 }
+
+/* #endregion desktop */

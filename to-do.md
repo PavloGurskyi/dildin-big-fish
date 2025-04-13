@@ -1,17 +1,7 @@
-<!-- //todo  -->
+<!-- //todo  == HEADER ==  -->
 
-<!-- //*  -->
-
-logo i burger => to row
-
-<!-- //?  -->
-
+<!-- logo i burger => to row
 header.css => to order
+count header-list gap -->
 
-<!-- //?  -->
-
-count header-list gap
-
-===
-
-<!-- //todo  -->
+<!-- //todo  == HERO ==  -->
