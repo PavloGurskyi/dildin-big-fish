@@ -105,3 +105,8 @@
   height: 2px; /* товщина лінії */
   background-color: #e52629; /* або будь-який інший колір підкреслення */
 }
+
+.serv-nav-btn-center {
+  display: flex;
+  justify-content: center;
+}
