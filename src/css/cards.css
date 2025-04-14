@@ -102,7 +102,8 @@
   border-right: 4px solid white; /* Товщина лінії стрілки */
 }
 
-.anchor-button:hover {
-  background-color: #e52629;
+.anchor-button:hover,
+.anchor-button:active {
+  background-color: #fff;
   opacity: 1;
 }
