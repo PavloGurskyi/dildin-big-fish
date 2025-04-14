@@ -60,3 +60,49 @@
   background-color: #e52629; /* Червоний маркер */
   border-radius: 50%; /* Робимо його круглим */
 }
+
+.cards-title-wrapper {
+  position: relative;
+  text-align: center; /* Центрує заголовок */
+  margin-bottom: 40px; /* Можна змінити відступ, якщо треба */
+}
+
+.cards-title {
+  margin: 0;
+}
+
+.anchor-button {
+  position: absolute;
+  top: 140px; /* Підняти догори */
+  right: 5px; /* Відступ від правого краю вьюпорта */
+  transform: translateY(-50%); /* Трохи підняти, щоб краще виглядало */
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  background-color: #e52629;
+  opacity: 0.6;
+  color: white;
+  text-decoration: none;
+  border-radius: 50%;
+  font-size: 20px;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.anchor-button::before {
+  content: '';
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(135deg);
+  width: 14px;
+  height: 14px;
+  border-top: 4px solid white; /* Товщина лінії стрілки */
+  border-right: 4px solid white; /* Товщина лінії стрілки */
+}
+
+.anchor-button:hover {
+  background-color: #e52629;
+  opacity: 1;
+}

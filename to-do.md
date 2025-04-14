@@ -21,4 +21,6 @@ styles
 
 <!-- //todo  == cards ==  -->
 
+праворуч від title має бути якірна кнопка на наступну секцію services
+
 <!-- //todo  == REVIEWS ==  -->
