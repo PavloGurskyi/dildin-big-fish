@@ -21,3 +21,25 @@
   font-size: 48px;
   text-transform: uppercase;
 }
+
+.how-to-skontaktuj-btn {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column; /* Елементи один під одним */
+  justify-content: center;
+  background-color: #c00e19;
+  padding: 12px 25px 8px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+  transition: background 0.3s ease, transform 0.3s ease;
+  gap: 5px;
+  margin: 30px auto;
+}
+
+.how-to-skontaktuj-btn:hover {
+  background-color: #a40b14;
+  transition: background-color 0.3s ease;
+}
