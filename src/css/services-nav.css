@@ -94,8 +94,15 @@
   font-size: 20px;
   text-align: center;
 }
+.serv-nav-item-title-sp {
+  width: 100%; /* !!! важливо */
+  position: relative;
+  font-size: 30px;
+  text-align: center;
+}
 
-.serv-nav-item-title::after {
+.serv-nav-item-title::after,
+.serv-nav-item-title-sp::after {
   content: '';
   position: absolute;
   left: 50%;

@@ -50,6 +50,10 @@
   padding-left: 20px; /* Додаємо місце для маркера */
 }
 
+.cards-list-item-text {
+  line-height: 1.5;
+}
+
 .cards-list-item::before {
   content: '';
   position: absolute;
