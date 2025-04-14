@@ -1,0 +1,23 @@
+.before-title {
+  color: #e52629;
+  margin-bottom: 10px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.how-to-title {
+  position: relative; /* обов'язково для ::after */
+  font-family: 'Gloria Hallelujah';
+  font-style: normal;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  /* text-transform: uppercase; */
+  font-size: 28px;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.how-to-first {
+  font-size: 48px;
+  text-transform: uppercase;
+}
