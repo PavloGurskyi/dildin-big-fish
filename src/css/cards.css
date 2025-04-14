@@ -64,7 +64,7 @@
 .cards-title-wrapper {
   position: relative;
   text-align: center; /* Центрує заголовок */
-  margin-bottom: 40px; /* Можна змінити відступ, якщо треба */
+  margin-bottom: 25px; /* Можна змінити відступ, якщо треба */
 }
 
 .cards-title {
