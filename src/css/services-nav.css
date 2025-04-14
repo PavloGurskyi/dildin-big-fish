@@ -87,3 +87,21 @@
   cursor: pointer;
 }
 /* //? endmodal */
+
+.serv-nav-item-title {
+  width: 100%; /* !!! важливо */
+  position: relative;
+  font-size: 20px;
+  text-align: center;
+}
+
+.serv-nav-item-title::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -6px; /* трохи нижче тексту */
+  transform: translateX(-50%); /* щоб лінія була по центру */
+  width: 80%; /* ширина підкреслення */
+  height: 2px; /* товщина лінії */
+  background-color: #e52629; /* або будь-який інший колір підкреслення */
+}
