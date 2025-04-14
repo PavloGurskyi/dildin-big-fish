@@ -1,0 +1,62 @@
+.cards-img-list {
+  display: flex;
+  gap: 20px; /* Відстань між картками */
+  list-style: none;
+  padding: 0;
+  margin: 30px auto;
+}
+
+.cards-img-list-item {
+  /* Можеш тут ще додати стилі для вирівнювання, якщо треба */
+}
+
+.cards-image {
+  border-radius: 8px;
+  border: 1px solid gray; /* Білий суцільний бордер */
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.cards-title {
+  color: #e52629;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.cards-text {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.underline {
+  position: relative;
+  display: inline-block;
+}
+
+.underline::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  height: 1px; /* Товщина лінії */
+  width: 100%;
+  background-color: #ffffff; /* Білий колір */
+}
+
+.cards-list-item {
+  position: relative;
+  padding-left: 20px; /* Додаємо місце для маркера */
+}
+
+.cards-list-item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px; /* Розмір маркера */
+  height: 8px;
+  background-color: #e52629; /* Червоний маркер */
+  border-radius: 50%; /* Робимо його круглим */
+}
