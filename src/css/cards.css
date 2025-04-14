@@ -18,10 +18,12 @@
   height: auto;
 }
 
-.cards-title {
+.cards-title,
+.serv-nav-main-title {
   color: #e52629;
   margin-bottom: 30px;
   text-align: center;
+  font-size: 30px;
 }
 
 .cards-text {
@@ -73,7 +75,7 @@
 
 .anchor-button {
   position: absolute;
-  top: 140px; /* Підняти догори */
+  top: 127px; /* Підняти догори */
   right: 5px; /* Відступ від правого краю вьюпорта */
   transform: translateY(-50%); /* Трохи підняти, щоб краще виглядало */
   display: inline-flex;
