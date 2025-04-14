@@ -18,8 +18,7 @@
   height: auto;
 }
 
-.cards-title,
-.serv-nav-main-title {
+.cards-title {
   color: #e52629;
   margin-bottom: 30px;
   text-align: center;
@@ -108,4 +107,8 @@
 .anchor-button:active {
   background-color: #fff;
   opacity: 1;
+}
+
+.cards-flex {
+  margin-bottom: 30px;
 }
