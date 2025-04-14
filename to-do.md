@@ -18,3 +18,9 @@ CV:
 - enhanCV
 - linkedIn html | css about : contacts + pseudo telegram yana semeshchuk
   publicate posts dou djinni
+
+<!-- //todo  == USLUGI ==  -->
+
+НАТИСКАЄШ НА посилання - вікривається модалка з картинкою
+
+- підкреслення заголовку червоним
